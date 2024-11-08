@@ -17,7 +17,9 @@ footer {
     padding: 20px;
     font-size: 14px;
 }
-
+.navbar-nav{
+    font-weight: bold;
+}
 .footer-container {
     max-width: 1200px;
     margin: 0 auto;
@@ -126,4 +128,28 @@ footer {
 
   .form-group button:active {
       background-color: #00408d;
+  }
+  .card-title-s1{
+    color: #42446E;
+    text-align: center;
+    font-size: 10vh;
+    font-weight: 100;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  }
+  .Tech-section,.p-heading1{
+    text-align: center;
+  }
+  .nameh{
+    background-image: linear-gradient(90deg,#13b0f5,#ca24b4);
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
+  }
+  .text,.myproject{
+    font-size: 8vh;
+    font-weight: bold;
+  }
+  .conme{
+    font-size: 8vh;
+    font-weight: bold;
   }
