@@ -143,6 +143,16 @@ footer {
   .Tech-section,.p-heading1{
     text-align: center;
   }
+  .flex-container {
+    display: flex;
+    flex-direction: row;
+  }
+  /* Responsive layout - makes a one column layout instead of a two-column layout */
+  @media (max-width: 800px) {
+    .flex-container {
+      flex-direction: column;
+    }
+  }
   .nameh{
     background-image: linear-gradient(90deg,#13b0f5,#ca24b4);
     -webkit-background-clip: text;
