@@ -5,7 +5,8 @@
 }
 body{
     margin: 2vh;
-}.RLsection{
+}
+.RLsection{
     display: flex;
     flex-wrap: nowrap;
 }
@@ -129,11 +130,14 @@ footer {
   .form-group button:active {
       background-color: #00408d;
   }
+  .col-md-8{
+    border-radius: 0;
+  }
   .card-title-s1{
     color: #42446E;
     text-align: center;
-    font-size: 10vh;
-    font-weight: 100;
+    font-size: 8vh;
+    font-weight: 90;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
   }
   .Tech-section,.p-heading1{
