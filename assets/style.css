@@ -193,6 +193,8 @@ footer {
     justify-content: center;
 }
 .item{
+    width: 12vh;
+    height: 12vh;
     background-color: rgba(220, 222, 224, 0.904);
     border: 1px;
     border-radius: 50%;
@@ -205,4 +207,20 @@ footer {
 .img-item{
     background:rgba(232, 240, 243, 0.651);
     opacity: 1;
+}
+.card-img{
+    height: 40vh;
+    width: auto;
+}
+.card-group{
+    display: flex;
+    justify-content: space-between 1px;
+}
+.cards{
+    border: 1px solid black;
+    border-radius: 2%;
+    display: flexbox;
+    align-items: center;
+    justify-content: space-between 1px;
+    
 }
