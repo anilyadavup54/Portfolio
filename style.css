@@ -143,8 +143,12 @@ footer {
     font-weight: 90;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
   }
-  .Tech-section,.p-heading1{
+  .Tech-section,.p-heading1,.about-section{
     text-align: center;
+  }
+  .sub-head{
+    font-size: 3vh;
+    font-weight:400;
   }
   .flex-container {
     display: flex;
