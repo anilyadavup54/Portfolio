@@ -1,5 +1,6 @@
 let currentSlide = 0;
-const form = document.getElementById('contact-form');
+const form = document.getElementById('#contact-form');
+const NavigationPagesLink=document.getElementById('.nav-item');
 //   <!-- Optional JavaScript for Validation or Submission -->
 // Form validation or handling (Optional)
 
@@ -9,4 +10,8 @@ form.addEventListener('submit', function(event) {
     alert('Form submitted!');
     // Simulate form submission success
     form.reset();
+});
+
+NavigationPagesLink.addEventListener('click', function(event){
+
 });

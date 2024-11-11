@@ -209,8 +209,8 @@ footer {
     opacity: 1;
 }
 .card-img{
-    padding: 10px;
     height: 300px;
+    padding-top: 50px;
     align-items: center;
     
 }
@@ -228,6 +228,7 @@ footer {
     padding-top: 90px;
 }
 .cards{
+    background: #817d7d6b;
     border: 1.5px solid black;
     border-radius: 5%;
     padding: 10px;
@@ -235,8 +236,24 @@ footer {
     height: 400px;
 }
 .card-title{
-    padding-top: 50px;
+    padding-top: 100px;
     font-size:3vh;
+
+    align-items: baseline;
     text-align:center;
 
+}
+.soucrce-link{
+    display: flex;
+    flex-wrap: row;  
+    column-gap:200px;
+}
+.view-source-img{
+    width: 19px;
+    height: 19px;
+   ;
+}
+.View-Code,.View-live{
+    display: flex;
+    align-content:right;
 }
